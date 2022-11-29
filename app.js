@@ -26,7 +26,7 @@ const hbs = create({
     extname: `.handlebars`,
     layoutsDir: path.join(__dirname, "views/layout"),
     defaultLayout: "main",
-    partialsDir: path.join(__dirname, "views/partials"),
+
     helpers: {},
 });
 // view engine setup
