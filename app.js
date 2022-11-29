@@ -51,5 +51,6 @@ app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     res.render("error");
 });
+app.use('/task3', require('./routes/task3Routes'))
 
 module.exports = app;
