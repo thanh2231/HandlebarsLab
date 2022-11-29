@@ -4,7 +4,7 @@ var data = require("../models/data");
 
 /* GET home page. */
 router.get("/", function(req, res, next) {
-    res.render("home", { title: "Jeopardize Contest " });
+    res.render("index", { title: "Jeopardize Contest " });
 });
 router.get("/task1", function(req, res, next) {
     res.render("tasks/task1", { title: "Inspiring Quotes" });
